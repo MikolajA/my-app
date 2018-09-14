@@ -11,6 +11,7 @@ import javax.enterprise.inject.spi.InjectionPoint;
 import javax.faces.context.FacesContext;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 
 @Stateless
 public class ParkingSpotDao {
@@ -18,8 +19,8 @@ public class ParkingSpotDao {
     @PersistenceContext
     private EntityManager entityManager;
 
-    public int save(ParkingSpot p){
+    public void save(ParkingSpot p) {
         entityManager.persist(p);
-        return p.getId();
     }
+    
 }

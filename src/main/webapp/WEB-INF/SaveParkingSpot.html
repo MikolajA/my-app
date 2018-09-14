@@ -1,18 +1,21 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 <body>
 <h1>Witaj w tej jakze przepieknej aplikacji!</h1>
-<form method="post", action="/save", enctype="multipart/form-data">
-    Imie: <input type="text" name="name"/> <br/><br/>
+<form method="post" action="save" enctype="multipart/form-data">
+
+    Imie: <input type="text" name="imie"/> <br/><br/>
     Nazwisko: <input type="text" name="nazwisko"/> <br/><br/>
     Marka samochodu: <input type="text" name="marka"/> <br/><br/>
     Numer rejestracyjnu pojazdu: <input type="text" name="numer"/> <br/><br/>
     Numer miejsca parkingowego: <input type="text" name="miejsce"/> <br/><br/>
-    <input type="submit" name="save" value="Dodaj"/><br/><br/>
+    <input type="submit" name="save" value="save"/><br/><br/>
 </form>
 </body>
 </html>

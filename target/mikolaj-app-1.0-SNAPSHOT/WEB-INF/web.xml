@@ -12,4 +12,9 @@
         <password>pass123</password>
     </data-source>
 
+    <servlet-mapping>
+        <servlet-name>SaveParkingSpotServlet</servlet-name>
+        <url-pattern>/save</url-pattern>
+    </servlet-mapping>
+
 </web-app>

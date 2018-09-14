@@ -1,15 +1,13 @@
 package com.mikolaj.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "Spot")
 public class ParkingSpot {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
 
@@ -32,12 +30,13 @@ public class ParkingSpot {
 
     }
 
-    public ParkingSpot(String imie, String nazwisko, String marka, String numer, String miejsce) {
-        this.setImie(imie);
-        this.setNazwisko(nazwisko);
-        this.setMarka(marka);
-        this.setNumer(numer);
-        this.setMiejsce(miejsce);
+    public ParkingSpot(int id, String imie, String nazwisko, String marka, String numer, String miejsce) {
+        this.id = id;
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        this.marka = marka;
+        this.nazwisko = nazwisko;
+        this.miejsce = miejsce;
     }
 
     public int getId() {
