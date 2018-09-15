@@ -22,5 +22,5 @@ public class ParkingSpotDao {
     public void save(ParkingSpot p) {
         entityManager.persist(p);
     }
-    
+
 }

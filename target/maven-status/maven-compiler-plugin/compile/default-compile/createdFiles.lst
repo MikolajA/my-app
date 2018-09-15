@@ -1,6 +1,7 @@
-com/mikolaj/web/ConfigProvider.class
-com/mikolaj/web/ParkingSpotServlet.class
+com/mikolaj/web/MainPageServlet.class
+com/mikolaj/Freemarker/TemplateProvider.class
 com/mikolaj/web/SaveParkingSpotServlet.class
-com/mikolaj/web/TemplateProvider.class
 com/mikolaj/model/ParkingSpot.class
 com/mikolaj/dao/ParkingSpotDao.class
+com/mikolaj/web/TestServlet.class
+com/mikolaj/Freemarker/ConfigProvider.class

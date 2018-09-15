@@ -1,5 +1,6 @@
 package com.mikolaj.web;
 
+import com.mikolaj.Freemarker.TemplateProvider;
 import com.mikolaj.dao.ParkingSpotDao;
 import com.mikolaj.model.ParkingSpot;
 import freemarker.template.Template;
@@ -44,6 +45,15 @@ public class SaveParkingSpotServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws IOException {
 
+        Template template = templateProvider.getTemplate(getServletContext(), "Saved.html");
+        resp.setContentType("text/html;charset=UTF-8");
+        Map<String, Object> dataModel = new HashMap<>();
+        try {
+            template.process(dataModel, resp.getWriter());
+        } catch (TemplateException e) {
+            e.printStackTrace();
+        }
+
         String imieParam = req.getParameter("imie");
         String nazwiskoParam = req.getParameter("nazwisko");
         String markaParam = req.getParameter("marka");
@@ -52,7 +62,6 @@ public class SaveParkingSpotServlet extends HttpServlet {
 
         final ParkingSpot ps = new ParkingSpot();
 
-
         ps.setImie(imieParam);
         ps.setNazwisko(nazwiskoParam);
         ps.setMarka(markaParam);
@@ -60,8 +69,6 @@ public class SaveParkingSpotServlet extends HttpServlet {
         ps.setMiejsce(miejsceParam);
 
         parkingSpotDao.save(ps);
-
-        resp.sendRedirect("/test");
 
     }
 
