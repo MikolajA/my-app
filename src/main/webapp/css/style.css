@@ -1,0 +1,92 @@
+body
+{
+    background-color: white;
+
+}
+
+#container
+{
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+    color: grey;
+    margin-top: 20px;
+    font-size: 44px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+#menu
+{
+    background-color: mediumturquoise;
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#content
+{
+    color: beige;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 680px;
+}
+
+#contentL
+{
+    float: left;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    border-right: 2px dotted grey;
+}
+
+#contentR
+{
+    float: left;
+    padding: 20px;
+    width: 1180px;
+    font-size: 25px;
+    text-align: justify;
+    color: grey;
+}
+
+#footer
+{
+    clear: both;
+    background-color: mediumturquoise;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.option
+{
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    border-right: 2px solid white;
+    opacity: 0.8;
+
+}
+
+.option:hover
+{
+    background-color: white;
+    cursor: pointer;
+    color: grey;
+}

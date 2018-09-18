@@ -12,7 +12,7 @@ import java.io.IOException;
 @ApplicationScoped
 public class TemplateProvider {
 
-    private final String TEMPLATE_DIRECTORY_PATH = "WEB-INF";
+    private final String TEMPLATE_DIRECTORY_PATH = "WEB-INF/templates/";
 
     private Configuration configuration;
 
