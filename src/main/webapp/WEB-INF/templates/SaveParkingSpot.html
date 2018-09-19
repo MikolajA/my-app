@@ -1,23 +1,67 @@
 <!doctype html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>save parking spot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>mikolaj-app: save parking spot</title>
+
+    <link href="../../css/style.css" rel="stylesheet" >
 
 </head>
 <body>
-<h1>Witaj w tej jakze przepieknej aplikacji!</h1>
-<form method="post" action="save" enctype="multipart/form-data">
 
-    Imie: <input type="text" name="imie"/> <br/><br/>
-    Nazwisko: <input type="text" name="nazwisko"/> <br/><br/>
-    Marka samochodu: <input type="text" name="marka"/> <br/><br/>
-    Numer rejestracyjnu pojazdu: <input type="text" name="numer"/> <br/><br/>
-    Numer miejsca parkingowego: <input type="text" name="miejsce"/> <br/><br/>
-    <input type="submit" name="save" value="save"/><br/><br/>
-</form>
+<div id="container">
+
+    <div id="logo">
+        Witaj w aplikacji mikolaj-aP<img src="http://localhost:8080/images/znak.jpeg" height="10%" width="2%">
+    </div>
+
+    <div id="menu">
+        <a href="http://localhost:8080/main"><div class="option">
+            Stroga główna </div></a>
+
+        <a href="http://localhost:8080/save"><div class="option">
+            Zarezerwuj miejsce </div></a>
+
+        <a href="http://localhost:8080/find"><div class="option">
+            Znajdz rezerwację</div></a>
+
+        <div style="clear: both"></div>
+    </div>
+
+    <div id="content">
+        <div id="contentSaveL">
+            Imię: </br>
+            Nazwisko: </br>
+            Marka samochodu: </br>
+            Nr rejestracyjny pojazdu: </br>
+            Nr miejsca parkingowego: </br>
+        </div>
+        <div id="contentSaveR">
+            <form method="post" action="save" enctype="multipart/form-data">
+
+                <input type="text" name="imie"/> <br/>
+                <input type="text" name="nazwisko"/> <br/>
+                <input type="text" name="marka"/> <br/>
+                <input type="text" name="numer"/> <br/>
+                <input type="text" name="miejsce"/> <br/>
+                <input type="submit" name="save" value="save"/><br/>
+            </form>
+        </div>
+        <div id="contentRRR">
+            <img src="http://localhost:8080/images/szkicparking" height="100%" width="100%">
+        </div>
+        <div style="clear: both;"></div>
+
+    </div>
+
+    <div id="footer">
+        mikolaj-aPP &copy;2018
+    </div>
+
+</div>
+
 </body>
 </html>
