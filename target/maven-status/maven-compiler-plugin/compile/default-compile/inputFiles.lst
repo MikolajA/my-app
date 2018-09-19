@@ -1,7 +1,9 @@
 /home/mikolaj/Projekty/mikolajapp/src/main/java/com/mikolaj/web/SaveParkingSpotServlet.java
+/home/mikolaj/Projekty/mikolajapp/src/main/java/com/mikolaj/dao/ImageUploadDao.java
 /home/mikolaj/Projekty/mikolajapp/src/main/java/com/mikolaj/model/ParkingSpot.java
 /home/mikolaj/Projekty/mikolajapp/src/main/java/com/mikolaj/Freemarker/TemplateProvider.java
 /home/mikolaj/Projekty/mikolajapp/src/main/java/com/mikolaj/dao/ParkingSpotDao.java
 /home/mikolaj/Projekty/mikolajapp/src/main/java/com/mikolaj/web/TestServlet.java
 /home/mikolaj/Projekty/mikolajapp/src/main/java/com/mikolaj/Freemarker/ConfigProvider.java
+/home/mikolaj/Projekty/mikolajapp/src/main/java/com/mikolaj/web/ImagesServlet.java
 /home/mikolaj/Projekty/mikolajapp/src/main/java/com/mikolaj/web/MainPageServlet.java
