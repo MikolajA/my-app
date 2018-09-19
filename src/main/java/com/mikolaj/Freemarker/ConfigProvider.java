@@ -14,7 +14,7 @@ public class ConfigProvider {
     public Configuration getConfiguration() throws IOException {
 
         if (configuration == null) {
-            configuration = new freemarker.template.Configuration(freemarker.template.Configuration.VERSION_2_3_28);
+            configuration = new Configuration(Configuration.VERSION_2_3_28);
             configuration.setDefaultEncoding("UTF-8");
             configuration.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
             configuration.setLogTemplateExceptions(false);

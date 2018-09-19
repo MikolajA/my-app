@@ -45,14 +45,28 @@ public class SaveParkingSpotServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws IOException {
 
-        Template template = templateProvider.getTemplate(getServletContext(), "Saved.html");
+        Template template = templateProvider.getTemplate(getServletContext(), "Saved.ftlh");
         resp.setContentType("text/html;charset=UTF-8");
+
         Map<String, Object> dataModel = new HashMap<>();
+
+        req.setCharacterEncoding("UTF-8");
+
+        try {
+            ParkingSpot parkingSpot = saveParkingSpot(req);
+            dataModel.put("parkingspot", parkingSpot);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         try {
             template.process(dataModel, resp.getWriter());
         } catch (TemplateException e) {
             e.printStackTrace();
         }
+    }
+
+    private ParkingSpot saveParkingSpot(HttpServletRequest req) {
 
         String imieParam = req.getParameter("imie");
         String nazwiskoParam = req.getParameter("nazwisko");
@@ -69,7 +83,6 @@ public class SaveParkingSpotServlet extends HttpServlet {
         ps.setMiejsce(miejsceParam);
 
         parkingSpotDao.save(ps);
-
+        return ps;
     }
-
 }

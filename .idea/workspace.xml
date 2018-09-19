@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8474d10e-3940-4ee7-a73e-d981bbe6aa46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/MainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/SaveParkingSpot.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/SaveParkingSpot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikolaj/Freemarker/ConfigProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikolaj/Freemarker/ConfigProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikolaj/dao/ParkingSpotDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikolaj/dao/ParkingSpotDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikolaj/model/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikolaj/model/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikolaj/web/SaveParkingSpotServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikolaj/web/SaveParkingSpotServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mikolaj/dao/ParkingSpotDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mikolaj/dao/ParkingSpotDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mikolaj-app-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/mikolaj-app-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mikolaj-app-1.0-SNAPSHOT/WEB-INF/classes/com/mikolaj/dao/ParkingSpotDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mikolaj-app-1.0-SNAPSHOT/WEB-INF/classes/com/mikolaj/dao/ParkingSpotDao.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,46 +34,48 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="961" />
-          <entry key="dummy" value="61" />
-          <entry key="html" value="1748" />
-          <entry key="java" value="2081" />
+          <entry key="css" value="1007" />
+          <entry key="dummy" value="83" />
+          <entry key="ftlh" value="318" />
+          <entry key="html" value="1873" />
+          <entry key="java" value="2374" />
           <entry key="xml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="961" />
-          <entry key="HTML" value="1748" />
-          <entry key="JAVA" value="2081" />
-          <entry key="PLAIN_TEXT" value="61" />
+          <entry key="CSS" value="1007" />
+          <entry key="FTL" value="318" />
+          <entry key="HTML" value="1873" />
+          <entry key="JAVA" value="2374" />
+          <entry key="PLAIN_TEXT" value="83" />
           <entry key="XML" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="6" />
-          <entry key="ftlh" value="6" />
+          <entry key="ftlh" value="10" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="23" />
+          <entry key="html" value="26" />
           <entry key="iml" value="1" />
-          <entry key="java" value="30" />
+          <entry key="java" value="42" />
           <entry key="properties" value="1" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="22" />
+          <entry key="xml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="6" />
-          <entry key="FTL" value="6" />
-          <entry key="HTML" value="23" />
+          <entry key="FTL" value="10" />
+          <entry key="HTML" value="26" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="42" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="22" />
+          <entry key="XML" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -79,34 +87,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/model/ParkingSpot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+            <state relative-caret-position="450">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.ftlh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/MainPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="10" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="31" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="388">
+              <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -114,32 +107,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/web/SaveParkingSpotServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+            <state relative-caret-position="525">
+              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/SaveParkingSpot.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -150,10 +122,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>parkingspot</find>
+      <find>ad</find>
+      <find>spot</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ad</replace>
+      <replace>spot</replace>
+      <replace>parkingspot</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -168,8 +152,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Detailes.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/model/ParkingSpot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/dao/ParkingSpotDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/web/ConfigProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/web/TestServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/web/TemplateProvider.java" />
@@ -184,8 +166,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/SaveParkingSpot.ftlh" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/web/MainPageServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.ftlh" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/MainPage2.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jboss-deployment-structure.xml" />
@@ -194,10 +174,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/web/ImagesServlet.java" />
         <option value="$PROJECT_DIR$/src/main/resources/setting.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/SaveParkingSpot1.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/web/SaveParkingSpotServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/MainPage.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/SaveParkingSpot.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/Freemarker/ConfigProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/test.ftlh" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Footer.ftlh" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/web/ParkingSpot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/model/ParkingSpot1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/model/ParkingSpot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/dao/ParkingSpotDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mikolaj/web/SaveParkingSpotServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.ftlh" />
       </list>
     </option>
   </component>
@@ -223,24 +212,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="mikolaj-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mikolaj-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mikolaj-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="war" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mikolaj-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="wildfly" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
@@ -248,9 +219,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="139" />
-    <option name="width" value="1066" />
+    <option name="x" value="114" />
+    <option name="y" value="174" />
+    <option name="width" value="1200" />
     <option name="height" value="715" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -328,6 +299,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mikolaj" type="462c0819:PsiDirectoryNode" />
+              <item name="Freemarker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mikolajapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mikolajapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mikolaj" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mikolajapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mikolajapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mikolaj" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,7 +368,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537343628487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537358312348" />
     <property name="last_opened_file_path" value="$USER_HOME$/infoShare/jjdd4-materialy-jee" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -418,17 +407,17 @@
       <updated>1536841440118</updated>
       <workItem from="1536841443451" duration="14451000" />
       <workItem from="1537007471448" duration="15806000" />
-      <workItem from="1537270836090" duration="11013000" />
+      <workItem from="1537270836090" duration="21016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41213000" />
+    <option name="totallyTimeSpent" value="51216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18262313" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16934144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -438,8 +427,8 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.2" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20216216" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.16216215" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24864864" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,7 +445,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="JSF" order="5" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="6" visible="true" weight="0.15771998" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.12285556" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -519,53 +508,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/model/ParkingSpot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/dao/ParkingSpotDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/web/HasBeenAddedServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/Freemarker/TemplateProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/web/TestServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/Freemarker/ConfigProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -584,7 +531,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/MainPage.ftlh" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.ftlh" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/SaveParkingSpot.ftlh" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/MainPage2.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
@@ -612,13 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -662,37 +601,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/web/SaveParkingSpotServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,6 +615,13 @@
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -718,11 +637,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/SaveParkingSpot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="176">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="93" column="6" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="64" selection-start-line="64" selection-end-line="81" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/Freemarker/TemplateProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/test.ftlh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Footer.ftlh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/Freemarker/ConfigProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/model/ParkingSpot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/dao/ParkingSpotDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/web/SaveParkingSpotServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mikolaj/model/ParkingSpot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Saved.ftlh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
         </state>
       </provider>
     </entry>
