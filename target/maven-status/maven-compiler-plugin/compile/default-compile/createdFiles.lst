@@ -1,4 +1,5 @@
 com/mikolaj/web/MainPageServlet.class
+com/mikolaj/web/SearchServlet.class
 com/mikolaj/web/ImagesServlet.class
 com/mikolaj/Freemarker/TemplateProvider.class
 com/mikolaj/web/SaveParkingSpotServlet.class

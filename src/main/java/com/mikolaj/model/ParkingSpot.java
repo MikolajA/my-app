@@ -35,56 +35,31 @@ public class ParkingSpot {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.marka = marka;
-        this.nazwisko = nazwisko;
+        this.numer = nazwisko;
         this.miejsce = miejsce;
     }
 
-    public int getId() {
-        return id;
-    }
+    public int getId() { return id; }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+    public void setId(int id) { this.id = id; }
 
-    public String getImie(String imie) {
-        return this.imie;
-    }
+    public String getImie() { return imie; }
 
-    public void setImie(String imie) {
-        this.imie = imie;
-    }
+    public void setImie(String imie) { this.imie = imie; }
 
-    public String getNazwisko() {
-        return nazwisko;
-    }
+    public String getNazwisko() { return nazwisko; }
 
-    public void setNazwisko(String nazwisko) {
-        this.nazwisko = nazwisko;
-    }
+    public void setNazwisko(String nazwisko) { this.nazwisko = nazwisko; }
 
-    public String getMarka() {
-        return marka;
-    }
+    public String getMarka() { return marka; }
 
-    public void setMarka(String marka) {
-        this.marka = marka;
-    }
+    public void setMarka(String marka) { this.marka = marka; }
 
-    public String getNumer() {
-        return numer;
-    }
+    public String getNumer() { return numer; }
 
-    public void setNumer(String numer) {
-        this.numer = numer;
-    }
+    public void setNumer(String numer) { this.numer = numer; }
 
-    public String getMiejsce() {
-        return miejsce;
-    }
+    public String getMiejsce() { return miejsce; }
 
-    public void setMiejsce(String miejsce) {
-        this.miejsce = miejsce;
-    }
-
+    public void setMiejsce(String miejsce) { this.miejsce = miejsce; }
 }

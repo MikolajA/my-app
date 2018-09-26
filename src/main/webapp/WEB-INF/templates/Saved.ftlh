@@ -25,7 +25,7 @@
         <a href="http://localhost:8080/save"><div class="option">
             Zarezerwuj miejsce </div></a>
 
-        <a href="http://localhost:8080/find"><div class="option">
+        <a href="http://localhost:8080/search"><div class="option">
             Znajdz rezerwację</div></a>
 
         <div style="clear: both"></div>
@@ -35,20 +35,16 @@
         <div id="saved">Twoje miejsce zostało dodane!</br>
             Poniżej znajdziesz szczegóły swojej rezerwacji</div>
         <div id="contentSaveL">
-            Imię: </br>
-            Nazwisko: </br>
-            Marka samochodu: </br>
-            Nr rejestracyjny pojazdu: </br>
-            Nr miejsca parkingowego: </br>
+
         </div>
         <div id="contentSaveR">
             <#if parkingspot??>
                 <ul>
-                    <li>${parkingspot.imie}</li>
-                    <li>${parkingspot.nazwisko}</li>
-                    <li>${parkingspot.marka}</li>
-                    <li>${parkingspot.numer}</li>
-                    <li>${parkingspot.miejsce}</li>
+                    <li> Imię: ${parkingspot.imie}</li>
+                    <li> Nazwisko: ${parkingspot.nazwisko}</li>
+                    <li> Marka pojazdu: ${parkingspot.marka}</li>
+                    <li> Nr rejestracyjny: ${parkingspot.numer}</li>
+                    <li> Nr miejsca: ${parkingspot.miejsce}</li>
                 </ul>
             </#if>
         </div>
