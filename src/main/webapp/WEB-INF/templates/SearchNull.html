@@ -1,0 +1,62 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>mikolaj-app: search</title>
+
+    <link href="../../css/style.css" rel="stylesheet" >
+
+</head>
+<body>
+
+<div id="container">
+
+    <div id="logo">
+        Witaj w aplikacji mikolaj-aP<img src="http://localhost:8080/images/znak.jpeg" height="10%" width="2%">
+    </div>
+
+    <div id="menu">
+        <a href="http://localhost:8080/main"><div class="option">
+            Stroga główna </div></a>
+
+        <a href="http://localhost:8080/save"><div class="option">
+            Zarezerwuj miejsce </div></a>
+
+        <a href="http://localhost:8080/search"><div class="option">
+            Znajdz rezerwację</div></a>
+
+        <div style="clear: both"></div>
+    </div>
+
+    <div id="content">
+        <div id="saved">
+            Niestety nie znaleziono rezerwacji!</div>
+        <div id="contentSaveL">
+            Możesz wyszukać swoje miejsce parkingowe</br>
+            podając poniżej nr rejestracyjny swojego pojazdu</br> </br>
+            <form method="post" action="search" enctype="multipart/form-data">
+                <input type="text" name="numer"> </br>
+                <input type="submit" name="save" value="Szukaj"> </br>
+            </form>
+        </div>
+        <div id="contentSaveR">
+
+        </div>
+        <div id="contentRRR">
+            <img src="http://localhost:8080/images/szkicparking" height="100%" width="100%">
+        </div>
+        <div style="clear: both;"></div>
+
+    </div>
+
+    <div id="footer">
+        mikolaj-aPP &copy;2018
+    </div>
+
+</div>
+
+</body>
+</html>

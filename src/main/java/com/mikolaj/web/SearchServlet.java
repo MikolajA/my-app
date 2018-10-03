@@ -7,7 +7,6 @@ import freemarker.template.Template;
 import freemarker.template.TemplateException;
 
 import javax.inject.Inject;
-import javax.persistence.EntityManager;
 import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -48,18 +47,30 @@ public class SearchServlet extends HttpServlet {
         Template template = templateProvider.getTemplate(getServletContext(), "Details.ftlh");
         Map<String, Object> dataModel = new HashMap<>();
 
+        Template templateNull = templateProvider.getTemplate(getServletContext(), "SearchNull.html");
+        Map<String, Object> dataModelNull = new HashMap<>();
+
         String numerParam = req.getParameter("numer");
 
-        try {
-            dataModel.put("parkingspot", parkingSpotDao.findByNumber(numerParam));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        if (numerParam == null || numerParam.isEmpty() || ) {
+            try {
+                templateNull.process(dataModelNull, resp.getWriter());
+            } catch (TemplateException e) {
+                e.printStackTrace();
+            }
+        } else {
 
-        try {
-            template.process(dataModel, resp.getWriter());
-        } catch (TemplateException e) {
-            e.printStackTrace();
+            try {
+                dataModel.put("parkingspot", parkingSpotDao.findByNumber(numerParam));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            try {
+                template.process(dataModel, resp.getWriter());
+            } catch (TemplateException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
