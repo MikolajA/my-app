@@ -52,20 +52,18 @@ public class SearchServlet extends HttpServlet {
 
         String numerParam = req.getParameter("numer");
 
-        if (numerParam == null || numerParam.isEmpty() || ) {
+        if (numerParam == null || numerParam.isEmpty()) {
             try {
                 templateNull.process(dataModelNull, resp.getWriter());
             } catch (TemplateException e) {
                 e.printStackTrace();
             }
         } else {
-
             try {
                 dataModel.put("parkingspot", parkingSpotDao.findByNumber(numerParam));
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
             try {
                 template.process(dataModel, resp.getWriter());
             } catch (TemplateException e) {
